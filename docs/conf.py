@@ -44,7 +44,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'User manual for tournamenter (RoboCup 2014)'
-copyright = u'2014, Marek Suppa, Ivan Seidel'
+copyright = u'2014, Ivan Seidel, Marek Suppa'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -197,7 +197,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   ('index', 'UsermanualfortournamenterRoboCup2014.tex', u'User manual for tournamenter (RoboCup 2014) Documentation',
-   u'Marek Suppa, Ivan Seidel', 'manual'),
+   u'Ivan Seidel, Marek Suppa', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -227,7 +227,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'usermanualfortournamenterrobocup2014', u'User manual for tournamenter (RoboCup 2014) Documentation',
-     [u'Marek Suppa, Ivan Seidel'], 1)
+     [u'Ivan Seidel, Marek Suppa'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -241,7 +241,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'UsermanualfortournamenterRoboCup2014', u'User manual for tournamenter (RoboCup 2014) Documentation',
-   u'Marek Suppa, Ivan Seidel', 'UsermanualfortournamenterRoboCup2014', 'One line description of project.',
+   u'Ivan Seidel, Marek Suppa', 'UsermanualfortournamenterRoboCup2014', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -262,9 +262,9 @@ texinfo_documents = [
 
 # Bibliographic Dublin Core info.
 epub_title = u'User manual for tournamenter (RoboCup 2014)'
-epub_author = u'Marek Suppa, Ivan Seidel'
-epub_publisher = u'Marek Suppa, Ivan Seidel'
-epub_copyright = u'2014, Marek Suppa, Ivan Seidel'
+epub_author = u'Ivan Seidel, Marek Suppa'
+epub_publisher = u'Ivan Seidel, Marek Suppa'
+epub_copyright = u'2014, Ivan Seidel, Marek Suppa'
 
 # The basename for the epub file. It defaults to the project name.
 #epub_basename = u'User manual for tournamenter (RoboCup 2014)'
