@@ -1,6 +1,10 @@
 Groups
 ======
 
+As described earilier, groups are a module of the system used for
+soccer-related leagues. They make it easy to add arrange teams into groups
+and schedule matches between teams.
+
 Introduction
 ------------
 
@@ -96,6 +100,15 @@ from a dropdown that shows up.
     :align: center
     :alt: An open dropdown that shows up when you click on *Empty*.
 
+After choosing a team you will see that its name will appear in the group
+table on the right. The `tournamenter`'s way of arranging teams into groups
+is by scheduling matches between these teams. For instance:
+
+.. figure:: img/group-fully-filled.png
+    :align: center
+    :alt: A group with some scheduled matches.
+
+
 Setting attributes of matches
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -133,3 +146,12 @@ icon and choosing from a popup that opens up. Once you change the state the
 Scoring
 ~~~~~~~
 
+Changing the score of a match is as easy as clicking on the current score
+(a number in bold text to the team name) and changing the value to the
+desired one.
+
+It should be noted that the data will only get reflected in the table (and
+thus the table will get updated) when the match is in the **Ended** state.
+
+Also, it is necessary to note at this point that it is always a good idea
+to click on the 'Refresh' button before changing any match data.

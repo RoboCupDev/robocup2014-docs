@@ -34,21 +34,22 @@ meaning is clear.
     :alt: The toolbar menu. Note that the name of your league might be used
         insetead of 'Tournamenter'.
 
-- **Teams** - This menu item will be disable at RoboCup 2014. The teams
+
+- **Teams**:  This menu item will be disabled at RoboCup 2014. The teams
     should be added via a different application.
 
-- **Groups** - This menu item is the entry point for all leagues that are
+- **Groups**: This menu item is the entry point for all leagues that are
   to some extend inspired by soccer. In here the teams can be arranged into
   groups, the matches for them can be created and the score of those
   matches can inserted into the database.
 
-- **Tables** - This menu item will be used by every other league as it
+- **Tables**: This menu item will be used by every other league as it
   encapsulates inserting any kind of scores into a table -- just like into
   a spreadsheet.
 
-- **Views** - This menu item will take you to a subsystem in which you can
+- **Views**: This menu item will take you to a subsystem in which you can
   create visual presentations of scores that have already been inserted in
   for output devices (such as monitor screens, TVs, ...).
 
-- **Logout** - by clicking on this screen you will log yourself out of the
+- **Logout**: by clicking on this screen you will log yourself out of the
   system and will have to use the password to log in again.
