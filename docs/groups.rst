@@ -47,10 +47,47 @@ it deletes the group. When you click on it you will see the following
 dialog in which you assure the system that deleting the group is really
 what you want.
 
-.. figure:: img/game-delete-confirm.png
+.. figure:: img/group-delete-confirm.png
     :align: center
     :alt: The confirmation dialog that shows up after you click on the
         'Delete Group' button.
 
 As you have certainly noticed there is a dark blue button that says 'Show'
-just below the group name.
+just below the group name. When you click on it you will see something very
+similar to the picture below:
+
+.. figure:: img/group-opened.png
+    :align: center
+    :alt: The opened management screen of an empty group.
+
+We call this the group management screen. In here you can add teams to a
+group, schedule matches, assign them to fields and more. We will discuss
+that in the next section.
+
+Managing groups
+---------------
+
+If we look at soccer competitions in general there are basically two things
+that are interesting: who and when is playing against whom and how is the
+result of that much going to reflect in some kind of general scoring.
+
+In `tournamenter` you start by sheduling matches. Doing that is very easy.
+You can add one by clicking on 'Create New Match'. What you should see is
+something like this:
+
+.. figure:: img/group-new-match.png
+    :align: center
+    :alt: A new empty match in the listing.
+
+
+As you can see, there is *Empty* sign in italics where you would expect a
+team name. This is intentional as you should change this placeholder into
+some team. You can do so easily by clicking at *Empty* and choosing a team
+from a dropdown that shows up.
+
+.. figure:: img/group-change-empty.png
+    :align: center
+    :alt: A dropdown that shows up after clicking on *Empty*.
+
+
+
