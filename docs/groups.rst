@@ -71,6 +71,9 @@ If we look at soccer competitions in general there are basically two things
 that are interesting: who and when is playing against whom and how is the
 result of that much going to reflect in some kind of general scoring.
 
+Sheduling matches
+~~~~~~~~~~~~~~~~~
+
 In `tournamenter` you start by sheduling matches. Doing that is very easy.
 You can add one by clicking on 'Create New Match'. What you should see is
 something like this:
@@ -81,7 +84,7 @@ something like this:
 
 
 As you can see, there is *Empty* sign in italics where you would expect a
-team name. This is intentional as you should change this placeholder into
+team name. This is intentional as you should change this placeholder to
 some team. You can do so easily by clicking at *Empty* and choosing a team
 from a dropdown that shows up.
 
@@ -89,5 +92,44 @@ from a dropdown that shows up.
     :align: center
     :alt: A dropdown that shows up after clicking on *Empty*.
 
+.. figure:: img/group-change-dropdown.png
+    :align: center
+    :alt: An open dropdown that shows up when you click on *Empty*.
 
+Setting attributes of matches
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Although choosing the teams that should play a match against each other is
+indeed crucial, it is only one part of the process of scheduling a match.
+As you might have noted in the matches listing there are a few more
+buttons: DAY, HOUR and FIELD.
+
+After clicking on any of these buttons a popup will show up in which you
+can edit the value that is currently set. Note that you confirm the value
+you have changed by pressing Enter. Similarly to the other popups, you can
+just let it reset to its current value by clicking somewhere else on the
+page.
+
+As you might expect the trash icon will try to remove the match altogether
+after asking for your confirmation.
+
+Setting the state of a match
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The last button we haven't mentioned so far is the blue 'clock' button on
+the left. This button is used to change the state of the match. Match can
+have three states:
+
+- **Scheduled**: the match has been created and it is ready to be played.
+- **Playing**: the match is being played at the moment
+- **Ended**: the match has already been played and the results should be
+  reflected in the scoring table.
+
+
+You can easily change the state of a match by clicking on the blue 'clock'
+icon and choosing from a popup that opens up. Once you change the state the
+'clock' icon will change to reflect the current state.
+
+Scoring
+~~~~~~~
 
