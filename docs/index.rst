@@ -13,6 +13,7 @@ Contents:
 
    introduction
    basics
+   groups
     
 
 ..  Indices and tables
