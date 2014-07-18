@@ -73,7 +73,7 @@ Managing groups
 
 If we look at soccer competitions in general there are basically two things
 that are interesting: who and when is playing against whom and how is the
-result of that much going to reflect in some kind of general scoring.
+result of that match going to reflect in some kind of general scoring.
 
 Sheduling matches
 ~~~~~~~~~~~~~~~~~
